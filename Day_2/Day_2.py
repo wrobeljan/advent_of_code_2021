@@ -16,3 +16,18 @@ for i in commends:
 print(X)
 print(Y)
 print(X*abs(Y))
+
+aim=0
+X=0
+Y=0
+for i in commends:
+    if i[0] == "down":
+        aim = aim + int(i[1])
+    elif i[0] == "up":
+        aim = aim - int(i[1])
+    elif i[0] == "forward":
+        X = X + int(i[1])
+        Y = Y + int(i[1])*aim
+print(X)
+print(Y)
+print(X*Y)
