@@ -69,6 +69,6 @@ def ratio(rep, a):
 co2_scrubber = ratio(report, 1)
 
 #print(oxygen_generator)
-print(co2_scrubber)
+#print(co2_scrubber)
 #print(int(oxygen_generator,2))
 print(int(co2_scrubber,2))
